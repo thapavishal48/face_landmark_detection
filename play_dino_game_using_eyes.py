@@ -62,7 +62,7 @@ while True:
         if EAR < 0.15:
             jump()
     
-    cv2.imshow("Dino Game with Vlink Detection", frame)
+    cv2.imshow("Dino Game with Blink Detection", frame)
     key = cv2.waitKey(1)
     if key == 27:
         break
